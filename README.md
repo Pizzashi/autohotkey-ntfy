@@ -21,7 +21,7 @@ ntfyUrl := "https://ntfy.sh/testpage"
 */
 ntfy := new Ntfy(ntfyUrl)
 ntfy.add("Title", "Title1")
-ntfy.add("Priority", "4")
+ntfy.add("Priority", "5")
 ntfy.send("BodyContent1")
 
 /*
