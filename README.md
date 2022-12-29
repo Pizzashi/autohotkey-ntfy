@@ -11,6 +11,7 @@ This is a simple class to send push notifications to your devices using [AutoHot
 /*
 * I recommend setting your own *randomized* url, since anyone
 * can use this url to send push notifications to your devices.
+* Maximum characters for the topic is 64.
 */
 ntfyUrl := "https://ntfy.sh/testpage"
 
